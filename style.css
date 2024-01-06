@@ -57,16 +57,35 @@ body {
 button{
   cursor: pointer;
   font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  outline: none;
   color: floralwhite;
-  background-color: #333;
+  background: #333;
   padding: 0.5rem 1.8rem;
   border-radius: 10px;
-  box-shadow: 0, 0.3rem rgba(121, 121, 121, 0.65);
-  padding: 0.5rem 1.8rem;
-
-
-
+  box-shadow: 0, 0.3rem rgba(121, 121, 121, 0.65);  
 }
+
+button:hover{
+  filter: brightness(130%);
+}
+
+button:active{
+  transform: translate(0, 0.3rem);
+  box-shadow: 0, 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+.twitter-button:hover{
+color:#38a1f3;
+}
+
+.fa-twitter{
+
+  font-size: 1.5rem;
+}
+
+
 
 
 @media screen and (max-width: 1000px) {
