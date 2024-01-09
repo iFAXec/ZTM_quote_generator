@@ -5,13 +5,13 @@ const quoteBtn = document.getElementById('new-quote');
 const tweetBtn = document.getElementById('twitter');
 const loader = document.getElementById('loader');
 
-
+//Loading spinner shown 
 const loading = () => {
     loader.hidden = false;
     quoteContainer.hidden = true;
 }
 
-
+//Remove loading spinner
 const complete = () => {
     loader.hidden = true;
     quoteContainer.hidden = false;
